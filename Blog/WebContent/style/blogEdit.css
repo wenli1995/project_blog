@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+#head{
+	height:150px;
+}
+#head  label{
+	font-size:30px;
+	margin:50px 0px 0px 100px;
+	color:#6B86B3;
+}
+#showpanel{
+	maggin:20px;
+}
+
+
+#showpanel .listTitle{
+	background-color:#6B86B3;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	padding:2px;
+}
+
+#showpanel .List ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;   /*去除列表项圆点*/ 
+	padding:10px 10px 10px 30px;
+}
+#showpanel .List ul li{
+	padding:2px;
+	font-size:12px;
+}
+#editpanel{
+	border:solid #6B86B3 1px;
+	padding:20px;
+}
+
+#editpanel .menuTitle{
+	background-color:#6B86B3;
+	border-top:solid black 1px;
+	border-bttom:dotted black 1px;
+
+}
+#editpanel .menuTitle label{
+	font-size:14px;
+	padding:5px;
+	color:white;
+}
+#editpanel  label{
+	font-weight:bold;
+	font-size:14px;
+}
+#editpanel .blogBtn #btn{
+	background-color:#6B86B3;
+	width:100px;
+	padding:5px 0px;
+	color:white;
+	font-weight:bold;
+	
+}
+#editpanel #message{
+	color:red;
+	font-size:14px;
+}
+table .blogTitle{
+	color:black
+}

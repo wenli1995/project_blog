@@ -1,0 +1,143 @@
+@CHARSET "UTF-8";
+.info{
+	font-size:small;
+	padding-top:10px;
+}
+
+.info p{
+	float:left;
+	
+}
+.info .link{
+	float:right;
+}
+
+.logo{
+	border-style:solid;
+	border-width:thin;
+	border-color:#99CCCC;
+	padding:5px;
+	margin:0px;
+}
+
+.lead{
+	background-color:#006699;
+	margin-top:10px;
+}
+
+.lead ul{
+	list-style:none;   /*去除列表项圆点*/  
+	margin:0px;
+	padding:0px;
+}
+.lead ul li{
+	float:left; /*列表项水平排列*/
+}
+
+.lead ul li a{
+	color:white;       /*链接文字显示为白色*/
+	font-size:16px;    /*链接文字字体大小为16p*/
+	padding:6px 12px;  /*通过内边距使得每个列表项有一定的距离*/
+	
+}
+.blogNav ul li a{
+	color:#383838;
+}
+
+#navUrl li{
+	/*background-color:#e8edf0;*/
+}
+
+.blogItem {
+	padding:20px;
+	border-bottom:dotted 1px #C8C8C8;
+}
+.blogItem .item_body .title a{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#006699;
+}
+.blogItem .item_body .title a:hover{
+	text-decoration:underline;
+	color:#F80000;
+}
+.blogItem .item_body .abstract{
+	padding:5px 0px;
+	
+}
+.blogItem .item_body .abstract p{
+	font-size:13px;
+	
+}
+.blogItem .item_body .footer{
+}
+
+.blogItem .digg{
+	height: 100px;
+	margin:0px auto;
+}
+.blogItem .digg .diggit{
+	background-color:#FFFFCC;
+	padding:5px;
+}
+.blogItem .digg .digg_tip{
+	background-color:#CCFFFF;
+	font-size:small;
+	padding:2px
+}
+
+.blogItem .digg .digg_text{
+	display:none
+}
+
+.data_list .list ul{
+	list-style:none;   /*去除列表项圆点*/  
+	padding:0px;
+}
+.data_list .list ul li{ 
+	padding:2px;
+}
+.data_list .list ul li a{
+	font-size:small;
+	color:#383838;
+	text-decoration: none;
+}
+.data_list .list_header a{
+	padding:5px;
+	color:#e47911;
+	font-weight:bold;
+	
+}
+.data_list .list_header .more{
+	float:right;
+}
+.data_list .list_header .more a{
+	color:#e47911;
+	font-weight:bold;
+}
+.user_data_list .user_list ul{
+	list-style-type:decimal;  /* 去除列表项圆点*/  
+	padding:10px 10px 10px 30px;
+}
+.user_data_list .user_list ul li{
+	padding:2px;
+}
+.user_data_list .user_list ul li a{
+	font-size:small;
+	color:#383838;
+}
+.user_data_list .user_list_header a{
+	padding:5px;
+	color:#e47911;
+	font-weight:bold;
+	
+}
+
+.navPanel{
+	background-color:#e8edf0;
+}
+
+.data_list{
+
+}

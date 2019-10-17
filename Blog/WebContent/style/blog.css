@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+#blogHeader{
+	background-color:#2C2C2C;
+	margin-bottom:20px;
+	padding:5px;
+	height:40px;
+}
+#blogHeader .blogTitle{
+	float:left;
+	position: relative;
+  	left: 0;
+  	top: -20px;
+  	margin-right:20px;
+  	color:white;
+}
+#blogHeader ul{
+	list-style:none;   /*去除列表项圆点*/  
+	margin:0px;
+	padding:0px;
+}
+
+#blogHeader ul li{
+	float:left;
+	
+	
+}
+#blogHeader ul li a{
+	color:#DCDCDC;       /*链接文字显示为白色*/
+	font-size:14px;    /*链接文字字体大小为16p*/
+	padding:6px 12px;  /*通过内边距使得每个列表项有一定的距离*/
+	text-decoration:none;
+	
+}
+
+#blogHeader .blogInfo{
+	font-size:12px;
+	float:right;
+	color:#1E90FF;
+	
+}
+
+
+.blogPanel{
+	border-style:solid;
+	border-width:thin;
+	border-color:#99CCCC;
+	padding:30px 10px 10px;
+	margin:0px;
+}
+.blogPanel form div{
+	margin:10px;
+	font-size:12px;
+	
+}
+.blogPanel #userInfo{
+	margin-bottom:30px;
+}
+.blogPanel #userInfo ul{
+	list-style:none;
+	padding:0px;
+}
+.blogPanel #classifyInfo ul{
+	list-style:none;
+	padding:10px;
+}
+.blogPanel .list_header{
+	font-weight:bold;
+}
+.blogPanel .List ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:decimal;  /* 去除列表项圆点*/
+	padding:10px 10px 10px 30px;
+}
+.blogPanel .List ul li{
+	padding:2px;
+	font-size:12px;
+}
+.blogByDate{
+	margin-bottom:30px;
+}
+.blogByDate .blogTitle{
+	border-bottom:dotted 1px #C8C8C8;
+	padding-bottom:20px;
+}
+.blogByDate .blogTitle span{
+	float:right;
+	color:blue;
+}
+.blogItem {
+	padding:15px 0px;
+	
+}
+
+.blogItem .title{
+	padding:10px 0px;
+
+}
+.blogItem .title a{
+	font-weight:bold;
+	color:#2C2C2C;
+}
+.blogItem .abstract{
+	font-size:12px;
+}
+.blogItem .abstract a{
+	text-decoration:underline;
+}
+ .blogItem .footer{
+	float:right;
+	font-size:12px;
+}
+.blogDetail{
+	background-color:#F5F5F5;
+	padding:10px 30px 30px;
+}
+.blogDetail .content{
+	border-bottom:solid 1px black;
+	padding:0px 20px
+}
+.blogDetail .content h2{
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom:10px;
+	
+}
+.blogDetail .content .info{
+	padding:20px 0px;
+}
+
+.blogDetail .content #digg{
+	float:right
+}
+.blogDetail .footer{
+	float: right;
+	padding:10px 0px;
+}
+.blogDetail .content .digg{
+	width: 60px;
+	height: 50px;
+	margin:0px 10px 10px 10px;
+}.blogDetail .content .digg .diggit{
+	background-color:#FFFFCC;
+	padding:5px;
+}
+.blogDetail  .content .digg .digg_tip{
+	background-color:#CCFFFF;
+	font-size:small;
+	padding:2px
+}
+
+
+.commentList{
+	border-bottom:solid 1px #C0C0C0;
+}
+
+.commentList .list_header{
+	margin:30px 0px;
+	border-bottom:solid 1px black;
+
+}
+.commentList .list_header span{
+	font-size:14px;
+	font-weight:bold;
+	padding:30px
+}
+.commentList .list_data{
+	padding:10px 30px 30px;
+}
+.commentList .list_data .list_item{
+	
+}
+
+.commentList .list_data .list_item .commentContent{
+	padding:10px;
+	border:dotted 1px #CCFFFF;
+	margin:10px 0;
+}
+
+.commentAdd{
+	margin-top:20px;
+}
+.commentAdd .commentheader{
+	margin-bottom:10px;
+	font-size:18px;
+}
+
+.commentAdd .divblock{
+	margin:10px 0;
+}
+
+
+.blogOrdByType .list_header{
+	font-size:20px;
+	margin:20px 0px 30px 40px
+}
+.blogOrdByType  ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;  /* 去除列表项圆点*/
+	padding:10px 10px 10px 30px;
+}
+.blogOrdByType ul li{
+	padding:2px;
+	font-size:12px;
+	border-bottom:solid 1px #DCDCDC;
+	margin-top:10px;
+	padding:10px
+}

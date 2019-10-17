@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+#head{
+	border-top:solid 1px #C0C0C0;
+	height:150px;
+	margin:10px
+}
+#head .welcome{
+	float:left;
+	font-size:20px;
+	padding:120px 0px 0px 300px
+}
+#head .homepage{
+	float:right;
+	font-size:30px;
+	padding:50px 320px 0px 0px
+}
+
+.info{
+	border-top:solid 1px #C0C0C0;
+	padding:30px 0 100px;
+	border-bottom:solid 1px #C0C0C0;
+}
+
+.info img{
+	height:250px;
+	width:250px;
+	border:solid 1px #C0C0C0;
+}
+.info .textInfo{
+	float:right;
+	padding:0px 600px 0px 0px;
+}
+
+.info .textInfo button{
+	margin:30px 0px
+}
+#modify{
+	padding:30px 0px;
+}
+
+#modify .title{
+	padding:10px 0px;
+	font-size:20px;
+}
+
+#modify  button{
+	margin:10px 0px;
+}

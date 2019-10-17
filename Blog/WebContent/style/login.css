@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+
+body{
+	background-color: #eee;
+	padding-top: 50px;
+    padding-bottom: 40px;
+}
+.loginForm{
+        max-width:400px;
+        padding: 15px 10px 40px 60px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+
+}
+
+.loginForm .login_header{
+	color:#800000;
+	font-weight:bold;
+	font-size:18px;
+}
+.loginForm .login_text{
+	font-size:14px;
+}
+
+.loginForm input[type="text"],.loginForm input[type="password"]{
+	margin:10px 0px;
+	width:200px;
+
+}
+
+.loginForm .loginBtn{
+	padding:2px 30px;
+	color:#800000;
+}
+.loginForm a{
+	font-size:12px;
+	text-decoration:none;
+	
+}
+.loginForm .message,.loginForm #tip1,.loginForm #tip2,.loginForm #tip3{
+	color:red;
+	font-size:12px;
+	margin:10px 0px;
+}
